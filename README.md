@@ -41,10 +41,10 @@ required to complete them.
 
 ### Tier-1: Beginner Projects
 
-| Name                                                                              | Short Description                                          | Tier       |
-| --------------------------------------------------------------------------------- | ---------------------------------------------------------- | ---------- |
-| [Bin2Dec](./Projects/1-Beginner/Bin2Dec-App.md)                                   | Binary-to-Decimal number converter                         | 1-Beginner |
-| [Border Radius Previewer](./Projects/1-Beginner/Border-Radius-Previewer.md)       | Preview how CSS3 border-radius values affect an element    | 1-Beginner |
+| Name                                                                              | Short Description                                          | Tier       |Solution                                                                           |
+| --------------------------------------------------------------------------------- | ---------------------------------------------------------- | ---------- |-----------------------------------------------------------------------------------|
+| [Bin2Dec](./Projects/1-Beginner/Bin2Dec-App.md)                                   | Binary-to-Decimal number converter                         | 1-Beginner |[Bin2Dec](beckerme.github.io/app-ideas/blob/master/mySolutions/bin2dec/index.html) |
+| [Border Radius Previewer](./Projects/1-Beginner/Border-Radius-Previewer.md)       | Preview how CSS3 border-radius values affect an element    | 1-Beginner |-----------------------------------------------------------------------------------|
 | [Calculator](./Projects/1-Beginner/Calculator-App.md)                             | Calculator                                                 | 1-Beginner |
 | [Christmas Lights](./Projects/1-Beginner/Christmas-Lights-App.md)                 | Simulate a string of Christmas lights                      | 1-Beginner |
 | [Cause Effect App](./Projects/1-Beginner/Cause-Effect-App.md)                     | Click list item to display item details                    | 1-Beginner |
