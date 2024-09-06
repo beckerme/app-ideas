@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+body{
+    background-color: #1A759F;
+}
+
+h1, h2, p, ul > li, label{
+    font-family: "Roboto", sans-serif;
+    color: #e8e7e7;
+}
+
+button{
+    font-family: "Roboto", sans-serif;
+    color: #e8e7e7;
+    background-color: #184E77;
+    border: none;
+    padding: 0.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+p{
+    text-align: justify;
+    line-height: 2;
+}
+
+h2{
+    padding: 1.5rem 0;
+}
+
+.intro > h1{
+    background-color: #184E77;
+    padding: 2rem;
+}
+
+.text-info{
+    background-color: #168AAD;
+    width: 60%;
+    padding: 1rem;
+    margin: 0 auto;
+    border-radius: 0 0 20px 20px;
+}
+
+.formu{
+    margin: 10px auto;
+    padding: 1rem 0.5rem;
+    background-color: #52B69A;
+    width: 60%;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.formu > h2{
+    text-decoration: underline;
+    font-size: 1.8rem;
+}
+
+ul > li{
+    text-align: center;
+}
