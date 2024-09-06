@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="data:image/x-icon;base64,AAABAAEAEBAAAAAAAABoBQAAFgAAACgAAAAQAAAAIAAAAAEACAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAACwsLAA7u7uAIuLiwANDQ0A////AHJycgDV1dUAR0dHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQEBAQEBAQEBAQEBAQEBAQGAwcEAwMHBgMDAgIDAgQEBQIHAQQDBAQABQQHAQMEBAUABwEEAwQEAAUEBwEDBAQGAwcEBQcEBAMFBAIDAgQEBAQEBAQEBAQEBAQEBAQEBAIDAwYHAwAEAwMBBwMDBAQEBQAEAwAFAAUCAgQDBAQEBAUABAMABQAFAgIEAwQEBAYDAAQHAwAEAwMBAAMEBAQEBAQEBAQEBAQEBAQEBAQEAgMDBgcDAAYDAwICAwIEBAQFAAQDAAUEAAUEBwEDBAQEBQAEAwAFBAAFBAcBAwQEBgMABAcDAAQDBQQCAwIEBAQEBAQEBAQEBAQEBAQEBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=" rel="icon" type="image/x-icon">
+    <title>Bin2Dec</title>
+</head>
+<body>
+    <div class="intro">
+        <h1>Bin2Dec</h1>
+        <div class="text-info">
+            <p>The binary system is a base-2 numeral system that uses only two digits, 0 and 1, to represent numbers. It is the foundation of all modern computing systems because digital devices operate using two states (on and off), which correspond to these two digits.</p>
+            <h2>How it works</h2>
+            <p>In binary, each position of a digit represents a power of 2, starting from the rightmost digit. For example, the binary number 1011 can be broken down as:
+                <ul>
+                    <li>1 x 2^3</li>
+                    <li>0 x 2^2</li>
+                    <li>1 x 2^1</li>
+                    <li>1 x 2^0</li>
+                </ul>
+            </p>
+            <h2>Binary to decimal conversion</h2>
+            <p>To convert a binary number into a decimal number, you sum the products of each binary digit (bit) by its corresponding power of 2. Using the example above: <br> (1 x 2^3)+(0 x 2^2)+(1 x 2^1)+(1 x 2^0) = 8 + 0 + 2 + 1 = 11 <br> Thus, the binary number 1011 equals 11 in decimal.
+            This process can be applied to any binary number to convert it to its decimal equivalent.</p>
+        </div>
+    </div>
+
+    <div class="formu">
+        <h2>Binary to decimal converter</h2>
+        <form id="bin2decForm"></form>
+            <div>
+                <label for="binInput">Enter binary number:</label>
+                <input type="text" id="binInput" required>
+                <button type="submit" onclick="converterToDecimal()" id="submit">Convert</button>
+                <p id="decOutput"></p>
+            </div>
+        </form>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
